@@ -102,10 +102,10 @@ RULeyH/IBJaS02gwWVZFFsUF4qAVBe621VzSXdljlKdzegaa5WqMKt99M3aN3EjCkpvanYbJ
         </md:KeyDescriptor>
 	  </md:KeyDescriptor>
 	  <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
-                            Location="https://<Cognito domain>/saml2/logout"/>
+                            Location="https://testspidauth.auth.us-east-1.amazoncognito.com/logout"/>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
-                                 Location="Location="https://facilitazione-dev.mitd.technology/login" index="0" isDefault="true" />
+                                 Location="Location="https://testspidauth.auth.us-east-1.amazoncognito.com/login" index="0" isDefault="true" />
       <md:AttributeConsumingService index="0" isDefault="true">
       <md:ServiceName xml:lang="">urn:uuid:a83e1df8-0dd3-46c0-b4e3-f6c650177056</md:ServiceName>
       <md:ServiceDescription xml:lang="it">MITD</md:ServiceDescription>
