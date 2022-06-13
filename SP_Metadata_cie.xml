@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor entityID="XXXXXX.xml" validUntil="20xx-xx-28T10:30:00.142Z" ID="xxxoxoxo" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cie="https://www.cartaidentita.interno.gov.it/saml-extensions">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor entityID="https://raw.githubusercontent.com/D1n4m1c4/Test_Spid/main/SP_Metadata_cie.xml" validUntil="20xx-xx-28T10:30:00.142Z" ID="xxxoxoxo" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:cie="https://www.cartaidentita.interno.gov.it/saml-extensions">
 <ds:Signature>
 <ds:Signature>
 <ds:SignedInfo>
