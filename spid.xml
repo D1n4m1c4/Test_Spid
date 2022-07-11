@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_482dd3c4fed2a4cb67a367a31a03fb613e0faef2we7d" entityID="https://satosa-spid-test.auth.eu-central-1.amazoncognito.com
+"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_482dd3c4fed2a4cb67a367a31a03fb613e0faef2we7d">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Si5c2+NbovvtNddz0TR67g+5lp7wNMMZhy0r29ufJ7U=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+rzrM/HlP8dm6AEseZXlpykyxjjLODoJSLB9dQkDCJoUiwK5ATI+yhQZQjp14YwV7iJ3tHTsr6out
+OBngCWfY7RphDwLuaIg+SH9x27FnDmx/1Sl4zfkRkRXWfE4noe4PUW6evmvQs0bkVfbMEEYc8RfQ
+DQHTR8kl7aKUZiXnZcGHHafXVpdo6KTEuzIbGPypjgIVLc2e/J+pGaCVRefJ/8LtzSziRVEKnX3j
+1O6kgucQBIS84ue9CcMg1BxE1RDQyJLDFS4VoQ1SYn4yo1R6otxTT3AVrO710Wn6UKmzy9pdUnNo
+jwOKWcYwqSqxsVrP7OuxSigYtKz6fMAqk/Y48A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+uG92xFZXo6rjKd3kcdkWFpsN99uIDkzQbkbGwO37ABF6/9VjhRqG673bfKdvA5IPtSXk7mXhk6Fs
+CNdbtzUucJnhga0FHDA2sbuJKKf23eynIICDrd+PYoQ6Cpb7+vMMGch5L0bbIg4xU8pkH+80dxrO
+DXS98ckRTBfknaysyLa4uQ4VtHERak2A67AFnicl0+K/FOkNLJ5laLYBJAooTaQYu2TOalY4fTem
+2g+2EtV1IUfFTxznDEzrz5PeNAwgZR7K039f/bnZokYFVmyQD0rQDANrmSKGg98d0CvRbJawSNWO
+2vwxLR3WgoWLnpoAkdlP3THMFASQx9Ul+sozUQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIECzCCAvOgAwIBAgIUe3Eygswe5I8rxpxQkl743ZkPkyowDQYJKoZIhvcNAQELBQAwgYUxEjAQ
+BgNVBAMMCW1pdHVydGVzdDELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExFzAVBgNVBGEMDlBB
+OklULVdRRjNaVzhGMR4wHAYDVQQKDBVNaW5pc3Rlcm8gZGVsIFR1cmlzbW8xGjAYBgNVBFMMEXNw
+aWQubWl0dXJ0ZXN0Lml0MB4XDTIyMDYyMzE0MTAzN1oXDTI3MDYyMjE0MTAzN1owgYUxEjAQBgNV
+BAMMCW1pdHVydGVzdDELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExFzAVBgNVBGEMDlBBOklU
+LVdRRjNaVzhGMR4wHAYDVQQKDBVNaW5pc3Rlcm8gZGVsIFR1cmlzbW8xGjAYBgNVBFMMEXNwaWQu
+bWl0dXJ0ZXN0Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuG92xFZXo6rjKd3k
+cdkWFpsN99uIDkzQbkbGwO37ABF6/9VjhRqG673bfKdvA5IPtSXk7mXhk6FsCNdbtzUucJnhga0F
+HDA2sbuJKKf23eynIICDrd+PYoQ6Cpb7+vMMGch5L0bbIg4xU8pkH+80dxrODXS98ckRTBfknays
+yLa4uQ4VtHERak2A67AFnicl0+K/FOkNLJ5laLYBJAooTaQYu2TOalY4fTem2g+2EtV1IUfFTxzn
+DEzrz5PeNAwgZR7K039f/bnZokYFVmyQD0rQDANrmSKGg98d0CvRbJawSNWO2vwxLR3WgoWLnpoA
+kdlP3THMFASQx9Ul+sozUQIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNV
+HSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggr
+BgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAQEAX8xnYRKAHuw3kziql9d0
+HL2HhotbUEKu2ZEPeD3398MSLnmrguQhfp9zBoVIjLHLNqaYHKfAQQLX2HdfoNWkHdNlNWWRpW+M
+XnmSoNgNNr94hTzf3tPzzNvJ0z6PqZ/gG+yO3ypN6Qnr2fBN/5dK8wGbX+CiEMzjZMLsAiGJgla0
+NC+Whf77OvFNQzbGh1fNM97H7h1yzz49T+ryj+GU2Feoi48myKQSXJf13f9Zmp1YLnK9+cXpe4/1
+dTEa9qcppdIhYd0mRENPL2T61jXslGpiaMQW347JS5dc5edHoNaZDWO5t1Eom5QEHijD1owDZjug
+jRks+R/q9yR9TEZJ5g==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIECzCCAvOgAwIBAgIUe3Eygswe5I8rxpxQkl743ZkPkyowDQYJKoZIhvcNAQEL
+BQAwgYUxEjAQBgNVBAMMCW1pdHVydGVzdDELMAkGA1UEBhMCSVQxDTALBgNVBAcM
+BFJvbWExFzAVBgNVBGEMDlBBOklULVdRRjNaVzhGMR4wHAYDVQQKDBVNaW5pc3Rl
+cm8gZGVsIFR1cmlzbW8xGjAYBgNVBFMMEXNwaWQubWl0dXJ0ZXN0Lml0MB4XDTIy
+MDYyMzE0MTAzN1oXDTI3MDYyMjE0MTAzN1owgYUxEjAQBgNVBAMMCW1pdHVydGVz
+dDELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExFzAVBgNVBGEMDlBBOklULVdR
+RjNaVzhGMR4wHAYDVQQKDBVNaW5pc3Rlcm8gZGVsIFR1cmlzbW8xGjAYBgNVBFMM
+EXNwaWQubWl0dXJ0ZXN0Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAuG92xFZXo6rjKd3kcdkWFpsN99uIDkzQbkbGwO37ABF6/9VjhRqG673bfKdv
+A5IPtSXk7mXhk6FsCNdbtzUucJnhga0FHDA2sbuJKKf23eynIICDrd+PYoQ6Cpb7
++vMMGch5L0bbIg4xU8pkH+80dxrODXS98ckRTBfknaysyLa4uQ4VtHERak2A67AF
+nicl0+K/FOkNLJ5laLYBJAooTaQYu2TOalY4fTem2g+2EtV1IUfFTxznDEzrz5Pe
+NAwgZR7K039f/bnZokYFVmyQD0rQDANrmSKGg98d0CvRbJawSNWO2vwxLR3WgoWL
+npoAkdlP3THMFASQx9Ul+sozUQIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB
+/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lE
+Y2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkq
+hkiG9w0BAQsFAAOCAQEAX8xnYRKAHuw3kziql9d0HL2HhotbUEKu2ZEPeD3398MS
+LnmrguQhfp9zBoVIjLHLNqaYHKfAQQLX2HdfoNWkHdNlNWWRpW+MXnmSoNgNNr94
+hTzf3tPzzNvJ0z6PqZ/gG+yO3ypN6Qnr2fBN/5dK8wGbX+CiEMzjZMLsAiGJgla0
+NC+Whf77OvFNQzbGh1fNM97H7h1yzz49T+ryj+GU2Feoi48myKQSXJf13f9Zmp1Y
+LnK9+cXpe4/1dTEa9qcppdIhYd0mRENPL2T61jXslGpiaMQW347JS5dc5edHoNaZ
+DWO5t1Eom5QEHijD1owDZjugjRks+R/q9yR9TEZJ5g==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://satosa-spid-test.auth.eu-central-1.amazoncognito.com/iam/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa-spid-test.auth.eu-central-1.amazoncognito.com/iam/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa-spid-test.auth.eu-central-1.amazoncognito.com/iam/SAML2/POST" index="0" isDefault="true"/>
+  </md:SPSSODescriptor>
+    <md:AttributeConsumingService index="0">
+    <md:ServiceName xml:lang="it">Portale Mitur Test</md:ServiceName>
+    <md:RequestedAttribute Name="spidCode"/>
+    <md:RequestedAttribute Name="name"/>
+    <md:RequestedAttribute Name="familyName"/>
+    <md:RequestedAttribute Name="placeOfBirth"/>
+    <md:RequestedAttribute Name="countyOfBirth"/>
+    <md:RequestedAttribute Name="dateOfBirth"/>
+    <md:RequestedAttribute Name="gender"/>
+    <md:RequestedAttribute Name="fiscalNumber"/>
+    <md:RequestedAttribute Name="idCard"/>
+    <md:RequestedAttribute Name="email"/>
+    <md:RequestedAttribute Name="mobilePhone"/>
+    </md:AttributeConsumingService>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ministero del Turismo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ministero del Turismo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://satosa-spid-test.auth.eu-central-1.amazoncognito.com</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+       <spid:IPACode>WQF3ZW8F</spid:IPACode>
+       <spid:Public/>
+    </md:Extensions>
+    <md:EmailAddress>test@peppelinux.it</md:EmailAddress>
+    <md:TelephoneNumber>+390636</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>
